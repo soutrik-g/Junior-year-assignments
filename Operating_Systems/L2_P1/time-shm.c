@@ -85,4 +85,4 @@ int main(int argc, char **argv)
     return 0;
 }
 
-// usage: gcc time-shm.c -otime-shm then ./time-shm <command> <args>
+// usage: gcc time-shm.c -o time-shm -lrt then ./time-shm <command> <args>
